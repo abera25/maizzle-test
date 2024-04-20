@@ -1,0 +1,18 @@
+{
+	"name": "app",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "maizzle serve",
+		"build": "maizzle build production"
+	},
+	"dependencies": {
+		"@maizzle/framework": "^4.8.4",
+		"tailwindcss-box-shadow": "^2.0.0",
+		"tailwindcss-email-variants": "^2.0.0",
+		"tailwindcss-mso": "^1.4.1"
+	},
+	"volta": {
+		"extends": "../package.json"
+	}
+}

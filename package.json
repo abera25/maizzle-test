@@ -1,0 +1,14 @@
+{
+	"name": "maizzle-test",
+	"version": "1.0.0",
+	"description": "Test maizzle",
+	"main": "index.js",
+	"author": "Aurélien BERA",
+	"license": "MIT",
+	"private": true,
+	"volta": {
+		"node": "20.12.2",
+		"yarn": "1.22.19"
+	},
+	"workspaces": ["app"]
+}
